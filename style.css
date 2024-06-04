@@ -2,17 +2,53 @@
 {
     width: 40%;
 } 
+
 #camera
 {
     width:360px;
     height: 250px;
     border:1px solid black;
 }
+
 #logo_img
 {
     width: 150px;
     border-radius: 100px;
 }
 
+.copy_right_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color:lightgray;
+}
 
+img:hover{
+    border-radius: 140px;
+}
 
+#result1{
+    display: inline;
+    box-shadow: 0 6px 8px 0 rgba(2,2,2,0.2); 
+
+}
+
+#result2{
+    display: inline;
+    padding-left: 8px;
+   
+}
+
+ #result3{
+    padding-top: 8px;
+ 
+ }
+
+ h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
